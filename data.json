@@ -2,7 +2,7 @@
     "data": [
         {
             "version": "4.13",
-            "status": null,
+            "statusOverride": null,
             "supportLength": "Extended",
             "releaseDate": "2023-04-26",
             "partialSupport": "2024-04-17",
@@ -11,7 +11,7 @@
         },
         {
             "version": "5.2",
-            "status": null,
+            "statusOverride": null,
             "supportLength": "Standard",
             "releaseDate": "2024-04",
             "partialSupport": "2024-10",
@@ -20,7 +20,7 @@
         },
         {
             "version": "5.3",
-            "status": null,
+            "statusOverride": null,
             "supportLength": "Standard",
             "releaseDate": "2024-11",
             "partialSupport": "2025-05",
@@ -29,7 +29,7 @@
         },
         {
             "version": "5.4",
-            "status": null,
+            "statusOverride": null,
             "supportLength": "Extended",
             "releaseDate": "2025-04",
             "partialSupport": "2026-04",
@@ -38,7 +38,7 @@
         },
         {
             "version": "6.0",
-            "status": null,
+            "statusOverride": null,
             "supportLength": "Standard",
             "releaseDate": "2025-06",
             "partialSupport": "2025-12",
@@ -47,7 +47,7 @@
         },
         {
             "version": "6.1",
-            "status": "In development",
+            "statusOverride": null,
             "supportLength": "Standard",
             "releaseDate": "2025-10",
             "partialSupport": "2026-04",
@@ -65,7 +65,7 @@
         },
         {
             "version": "6.2",
-            "status": null,
+            "statusOverride": null,
             "supportLength": "Standard",
             "releaseDate": "2026-04",
             "partialSupport": "2026-10",
@@ -87,7 +87,7 @@
         },
         {
             "version": "6.3",
-            "status": null,
+            "statusOverride": null,
             "supportLength": "Standard",
             "releaseDate": "2026-10",
             "partialSupport": "2027-04",
@@ -101,7 +101,7 @@
         },
         {
             "version": "6.4",
-            "status": null,
+            "statusOverride": null,
             "supportLength": "Extended",
             "releaseDate": "2027-04",
             "partialSupport": "2028-04",
@@ -110,7 +110,7 @@
         },
         {
             "version": "7.0",
-            "status": null,
+            "statusOverride": null,
             "supportLength": "Standard",
             "releaseDate": "2027-04",
             "partialSupport": "2027-10",
