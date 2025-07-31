@@ -5,8 +5,11 @@
             "statusOverride": null,
             "supportLength": "Extended",
             "releaseDate": "2023-04-26",
+            "releaseDateExtra": null,
             "partialSupport": "2024-04-17",
+            "partialSupportExtra": null,
             "supportEnds": "2025-06",
+            "supportEndsExtra": null,
             "features": []
         },
         {
@@ -14,6 +17,7 @@
             "statusOverride": null,
             "supportLength": "Standard",
             "releaseDate": "2024-04",
+            "releaseDateExtra": null,
             "partialSupport": "2024-10",
             "supportEnds": "2025-04",
             "features": []
@@ -23,8 +27,11 @@
             "statusOverride": null,
             "supportLength": "Standard",
             "releaseDate": "2024-11",
+            "releaseDateExtra": null,
             "partialSupport": "2025-05",
+            "partialSupportExtra": null,
             "supportEnds": "2025-11",
+            "supportEndsExtra": null,
             "features": []
         },
         {
@@ -32,8 +39,11 @@
             "statusOverride": null,
             "supportLength": "Extended",
             "releaseDate": "2025-04",
+            "releaseDateExtra": null,
             "partialSupport": "2026-04",
+            "partialSupportExtra": null,
             "supportEnds": "2027-04",
+            "supportEndsExtra": null,
             "features": []
         },
         {
@@ -43,6 +53,7 @@
             "releaseDate": "2025-06",
             "partialSupport": "2025-10",
             "supportEnds": "2026-04",
+            "supportEndsExtra": null,
             "features": []
         },
         {
@@ -50,8 +61,11 @@
             "statusOverride": null,
             "supportLength": "Standard",
             "releaseDate": "2025-10",
+            "releaseDateExtra": null,
             "partialSupport": "2026-04",
+            "partialSupportExtra": null,
             "supportEnds": "2026-10",
+            "supportEndsExtra": null,
             "features": [
                 {
                     "title": "Performance improvements",
@@ -68,8 +82,11 @@
             "statusOverride": null,
             "supportLength": "Standard",
             "releaseDate": "2026-04",
+            "releaseDateExtra": null,
             "partialSupport": "2026-10",
+            "partialSupportExtra": null,
             "supportEnds": "2027-04",
+            "supportEndsExtra": null,
             "features": [
                 {
                     "title": "Last saved",
@@ -90,8 +107,11 @@
             "statusOverride": null,
             "supportLength": "Standard",
             "releaseDate": "2026-10",
+            "releaseDateExtra": null,
             "partialSupport": "2027-04",
+            "partialSupportExtra": null,
             "supportEnds": "2027-10",
+            "supportEndsExtra": null,
             "features": [
                 {
                     "title": "In-CMS user support documentation",
@@ -104,8 +124,11 @@
             "statusOverride": null,
             "supportLength": "Extended",
             "releaseDate": "2027-04",
+            "releaseDateExtra": null,
             "partialSupport": "2028-04",
+            "partialSupportExtra": null,
             "supportEnds": "2029-04",
+            "supportEndsExtra": "2029-06",
             "features": []
         },
         {
@@ -113,8 +136,11 @@
             "statusOverride": null,
             "supportLength": "Standard",
             "releaseDate": "2027-04",
+            "releaseDateExtra": "2027-06",
             "partialSupport": "2027-10",
+            "partialSupportExtra": null,
             "supportEnds": "2028-04",
+            "supportEndsExtra": null,
             "features": []
         }
     ]
