@@ -1,0 +1,13 @@
+{
+  "name": "roadmap-json-validator",
+  "version": "1.0.0",
+  "description": "Validates data.json against a schema",
+  "main": "validate.js",
+  "scripts": {
+    "validate": "node validate.js"
+  },
+  "keywords": [],
+  "dependencies": {
+    "ajv": "^8.17.1"
+  }
+}

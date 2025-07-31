@@ -1,0 +1,97 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Data Schema",
+  "description": "Schema for data.json",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "version",
+          "statusOverride",
+          "supportLength",
+          "releaseDate",
+          "partialSupport",
+          "supportEnds",
+          "features"
+        ],
+        "properties": {
+          "version": {
+            "type": "string",
+            "pattern": "^\\d+\\.\\d+$",
+            "description": "The version number, e.g., '4.13' or '6.1'"
+          },
+          "statusOverride": {
+            "type": ["string", "null"],
+            "enum": [
+                "Full support",
+                "Partial support",
+                "End of life",
+                "Pre-release",
+                "In development",
+                "Planned",
+                "Not shown",
+                null
+              ],
+            "description": "An override for dynamically generated status, e.g., 'In development' or null for no override"
+          },
+          "supportLength": {
+            "type": "string",
+            "enum": ["Standard", "Extended"],
+            "description": "The length of support, either 'Standard' or 'Extended'"
+          },
+          "releaseDate": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}(-\\d{2})?$",
+            "description": "The release date in YYYY-MM or YYYY-MM-DD format"
+          },
+          "releaseDateExtra": {
+            "type": ["string", "null"],
+            "pattern": "^\\d{4}-\\d{2}(-\\d{2})?$",
+            "description": "The release date in YYYY-MM or YYYY-MM-DD format"
+          },
+          "partialSupport": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}(-\\d{2})?$",
+            "description": "The partial support end date in YYYY-MM or YYYY-MM-DD format"
+          },
+          "partialSupportExtra": {
+            "type": "null",
+            "description": "Must be null so that it does not violate release policy"
+          },
+          "supportEnds": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}(-\\d{2})?$",
+            "description": "The full support end date in YYYY-MM or YYYY-MM-DD format"
+          },
+          "supportEndsExtra": {
+            "type": ["string", "null"],
+            "pattern": "^\\d{4}-\\d{2}(-\\d{2})?$",
+            "description": "Used to create a date range - YYYY-MM or YYYY-MM-DD format"
+          },
+          "features": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["title", "description"],
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["data"],
+  "additionalProperties": false
+}
