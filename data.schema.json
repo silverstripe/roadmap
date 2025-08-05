@@ -13,8 +13,11 @@
           "statusOverride",
           "supportLength",
           "releaseDate",
+          "releaseDateExtra",
           "partialSupport",
+          "partialSupportExtra",
           "supportEnds",
+          "supportEndsExtra",
           "features"
         ],
         "properties": {

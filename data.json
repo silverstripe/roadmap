@@ -6,9 +6,9 @@
             "supportLength": "Extended",
             "releaseDate": "2023-04-26",
             "releaseDateExtra": null,
-            "partialSupport": "2024-04-17",
+            "partialSupport": "2024-04-27",
             "partialSupportExtra": null,
-            "supportEnds": "2025-06",
+            "supportEnds": "2025-06-10",
             "supportEndsExtra": null,
             "features": []
         },
@@ -19,7 +19,9 @@
             "releaseDate": "2024-04-15",
             "releaseDateExtra": null,
             "partialSupport": "2024-11-04",
-            "supportEnds": "2025-04",
+            "partialSupportExtra": null,
+            "supportEnds": "2025-05-05",
+            "supportEndsExtra": null,
             "features": []
         },
         {
@@ -30,7 +32,7 @@
             "releaseDateExtra": null,
             "partialSupport": "2025-04-10",
             "partialSupportExtra": null,
-            "supportEnds": "2025-10",
+            "supportEnds": "2025-10-11",
             "supportEndsExtra": null,
             "features": []
         },
@@ -40,7 +42,7 @@
             "supportLength": "Extended",
             "releaseDate": "2025-04-10",
             "releaseDateExtra": null,
-            "partialSupport": "2026-04",
+            "partialSupport": "2026-04-11",
             "partialSupportExtra": null,
             "supportEnds": "2027-04",
             "supportEndsExtra": "2027-06",
@@ -51,7 +53,9 @@
             "statusOverride": null,
             "supportLength": "Standard",
             "releaseDate": "2025-06-10",
+            "releaseDateExtra": null,
             "partialSupport": "2025-10",
+            "partialSupportExtra": null,
             "supportEnds": "2026-04",
             "supportEndsExtra": null,
             "features": []

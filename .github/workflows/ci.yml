@@ -7,7 +7,7 @@ on:
 
 jobs:
   ci:
-    name: Validate data.json Schema
+    name: Validate data.json
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -19,5 +19,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Validate data.json with schema
-        run: npm run validate
+      - name: Validate json schema
+        run: npm run validate-schema
+
+      - name: Validate json data
+        run: npm run validate-data

@@ -4,10 +4,13 @@
   "description": "Validates data.json against a schema",
   "main": "validate.js",
   "scripts": {
-    "validate": "node validate.js"
+    "validate": "npm run validate-schema && npm run validate-data",
+    "validate-schema": "node validate-schema.js",
+    "validate-data": "node validate-data.js"
   },
   "keywords": [],
   "dependencies": {
-    "ajv": "^8.17.1"
+    "ajv": "^8.17.1",
+    "dayjs": "^1.11.13"
   }
 }
