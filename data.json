@@ -103,6 +103,10 @@
                 {
                     "title": "In-CMS accessibility improvements",
                     "description": "Determine and deliver a valuable set of accessibility improvements to the CMS itself."
+                },
+                {
+                    "title": "PHP 8.5 support",
+                    "description": "Add support for PHP 8.5 across all supported modules."
                 }
             ]
         },
