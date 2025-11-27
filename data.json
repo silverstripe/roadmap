@@ -124,6 +124,10 @@
                 {
                     "title": "In-CMS user support documentation",
                     "description": "In-CMS user documentation to help customers understand what's available and how to make it work."
+                },
+                {
+                    "title": "Further in-CMS accessibility improvements",
+                    "description": "More accessibility improvements for the CMS."
                 }
             ]
         },
