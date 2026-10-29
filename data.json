@@ -87,9 +87,9 @@
             "supportLength": "Standard",
             "releaseDate": "2026-04-17",
             "releaseDateExtra": null,
-            "partialSupport": "2026-10",
+            "partialSupport": "2026-10-28",
             "partialSupportExtra": null,
-            "supportEnds": "2027-04",
+            "supportEnds": "2027-04-29",
             "supportEndsExtra": null,
             "features": [
                 {
@@ -114,7 +114,7 @@
             "version": "6.3",
             "statusOverride": null,
             "supportLength": "Standard",
-            "releaseDate": "2026-10",
+            "releaseDate": "2026-10-28",
             "releaseDateExtra": null,
             "partialSupport": "2027-04",
             "partialSupportExtra": null,
